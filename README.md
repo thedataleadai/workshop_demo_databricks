@@ -25,13 +25,6 @@ The data is synthetically generated with realistic fields and scale:
 - `borrowers.csv` — ~10,000 borrowing records
 - `staff.csv` — ~20 staff members
 
-Run the provided Python script in Databricks to generate the data in `/FileStore/tables/`.
 
-## 📁 Project Structure
-📦 databricks-library-pipeline
-├── notebooks/
-│ ├── 01_generate_data.py # Generate synthetic data into DBFS
-│ ├── 02_medallion_pipeline.py # Bronze → Silver → Gold pipeline
-│ └── 03_ml_model_train.py # ML pipeline to predict late returns
-├── README.md
+
 
