@@ -14,7 +14,7 @@ This project simulates a public library managing:
 It walks participants through:
 1. **Raw data ingestion (Bronze)**
 2. **Data cleaning & enrichment (Silver)**
-3. **Analytics & ML modeling (Gold)**
+3. **Analytics (Gold)**
 
 ---
 
