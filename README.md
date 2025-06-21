@@ -53,7 +53,6 @@ Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_s
 |-------|-------------|
 | `gold.most_borrowed_books` | Top borrowed books by count |
 | `gold.delay_by_genre` | Avg delay days per genre |
-| `late_return_model` | Binary classifier model |
 
 ---
 
