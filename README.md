@@ -56,7 +56,7 @@ Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_s
 
 ---
 
-## 🧑‍🏫 Workshop Learning Goals
+## Workshop Learning Goals
 
 ✅ Understand the Databricks Lakehouse concept  
 ✅ Apply Medallion Architecture best practices  
@@ -65,7 +65,7 @@ Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_s
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - Databricks free edition
 - PySpark / Spark SQL
