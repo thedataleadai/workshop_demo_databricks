@@ -1,4 +1,4 @@
-# Databricks Lakehouse Workshop: Library Analytics Pipeline
+# FIRST STEPS WITH DATABRICKS: FROM ZERO TO LAKEHOUSE 
 
 Welcome to the hands-on workshop for learning **Databricks Lakehouse Architecture** using the analogy of a **Library System**. This end-to-end demo showcases how to build scalable data pipelines using Bronze, Silver, and Gold layers, and train a machine learning model to predict **late book returns**.
 
@@ -15,6 +15,7 @@ It walks participants through:
 1. **Raw data ingestion (Bronze)**
 2. **Data cleaning & enrichment (Silver)**
 3. **Analytics (Gold)**
+4. 4. **Insigts (Visualization Dashboard)**
 
 ---
 
@@ -34,7 +35,7 @@ The data is synthetically generated with realistic fields and scale:
 
 Upload the notebooks or use Git integration if you're using Databricks Repos.
 
-### 2. Run `01_generate_data.py`
+### 2. Load dataset inoto volune 
 
 Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_schema/library_volume/`.
 
@@ -51,8 +52,9 @@ Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_s
 
 | Table | Description |
 |-------|-------------|
-| `gold.most_borrowed_books` | Top borrowed books by count |
-| `gold.delay_by_genre` | Avg delay days per genre |
+| `most_borrowed_books.gold` | Top borrowed books by count |
+| `delay_by_genre.gold` | Avg delay days per genre |
+| `staff_count_by_role_gold` | Total  number of staff per role|
 
 ---
 
@@ -70,14 +72,11 @@ Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_s
 - Databricks free edition
 - PySpark / Spark SQL
 - Delta Lake
-- Faker (data generation)
-
 ---
 
 ## License
 
 This project is open for educational use under the MIT License.
-
 ---
 
 ## Acknowledgments
@@ -85,6 +84,5 @@ This project is open for educational use under the MIT License.
 Special thanks to:
 - TheDatalead AI
 - All participants building the future with data
-
 ---
 
