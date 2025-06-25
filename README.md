@@ -31,7 +31,7 @@ The data is synthetically generated with realistic fields and scale:
 
 > **Prerequisites**: Databricks Community or Enterprise Workspace
 
-### 1. Clone the repository into Databricks
+### Clone the repository into Databricks
 
 Upload the notebooks or use Git integration if you're using Databricks Repos.
 
@@ -39,16 +39,9 @@ Upload the notebooks or use Git integration if you're using Databricks Repos.
 
 Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_schema/library_volume/`.
 
-### 3. Run `02_medallion_pipeline.py`
-
-- Ingests raw data to **Bronze**
-- Cleans and enriches to **Silver**
-- Aggregates analytics in **Gold**
-
----
 
 
-## 📈 Gold-Level Outputs
+## Gold-Level Outputs
 
 | Table | Description |
 |-------|-------------|
