@@ -49,6 +49,25 @@ Generates synthetic datasets and stores them in `/Volumes/demo_catalog/library_s
 | `delay_by_genre.gold` | Avg delay days per genre |
 | `staff_count_by_role_gold` | Total  number of staff per role|
 
+
+### The Medallion Architecture
+
+![screenshot](images/Medal.png)
+
+
+### The Data Model
+
+![screenshot](images/model.png)
+
+
+### The Visualization Dashboard
+
+![screenshot](images/Dash.png)
+
+
+
+
+
 ---
 
 ## Workshop Learning Goals
