@@ -35,36 +35,28 @@ It walks participants through:
    - open your terminal and type the following code:
       git clone `https://github.com/Rashidomar/workshop_demo_databricks.git`
       This will clone the project onto your local machine
+     **Please note location of your cloned repo**
 
 ### 2. Create Notebooks on Databricks account by following the below steps
 
-   1. Navigate to user workspace on
+   1. Navigate to user workspace on Databricks
        - From left menu, go to user workspace by:  
-       - clicking  Workspace > Users > `username`@gmail.com, when you get here, create a folder called `workshop_demo_databricks`
-   2. Notebook Creation
-       To create notebook:
-      - Click **Create** > **Notebook** 
-      - `bronze_layer` should be the name of your first notebook.
-      - Select **SQL** as the langauge for the notebook.
-      - Click **Create**
-        Copy and paste the content of the bronze_layer from the cloned repo on local machine in the **SQL_Notebook** folder.
-   3. Repeat the same steps to create your `silver_layer` and `gold_layer` notebooks
+       - clicking on Workspace > Users > `username`@gmail.com, when you get here, create a folder called `workshop_demo_databricks`
+   2. Notebook Upload
+       To upload the notebook:
+      - Click on the three doted icon on the top right hand side where you created the folder `workshop_demo_databricks`
+      - From the pop up, select import.
+      - From the import window, click on browse, Navigate to where your repo was cloned
+      - Select the three notebooks from the `SQL_Notebook` folder, that is `bronze_layer`,`silver_layer` and `gold_layer`
+      - Click on import
+   3. You can now view and run the imported notebooks from your Databricks Workspace
 
-## Gold-Level Outputs
-
-| Table | Description |
-|-------|-------------|
-| `most_borrowed_books.gold` | Top borrowed books by count |
-| `delay_by_genre.gold` | Avg delay days per genre |
-| `staff_count_by_role_gold` | Total  number of staff per role|
-
-
-### The Medallion Architecture
+### The Medallion Architecture of the library System
 
 ![screenshot](images/Medal.png)
 
 
-### The Data Model
+### The Data Model of the library System
 
 ![screenshot](images/model.png)
 
@@ -72,10 +64,6 @@ It walks participants through:
 ### The Visualization Dashboard
 
 ![screenshot](images/Dash.png)
-
-
-
-
 
 ---
 
@@ -104,6 +92,7 @@ This project is open for educational use under the MIT License.
 
 Special thanks to:
 - TheDataLead AI
+  www.thedatalead.ai
 - All participants building the future with data
 ---
 
