@@ -91,8 +91,7 @@ This project is open for educational use under the MIT License.
 ## Acknowledgments
 
 Special thanks to:
-- TheDataLead AI
-  www.thedatalead.ai
+- TheDataLead AI : www.thedatalead.ai
 - All participants building the future with data
 ---
 
