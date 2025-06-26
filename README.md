@@ -57,11 +57,13 @@ It walks participants through:
 
 
 ### The Data Model of the library System
+### data model defines the structure and relationships within your data. It serves as a blueprint for how data is stored, understood, and used across the organization. This is going general view of our datasets.
 
 ![screenshot](images/model.png)
 
 
 ### The Visualization Dashboard
+#### A dashboard translates data into actionable insights through visual storytelling. It allows decision-makers to monitor, explore, and act on key metrics in real time.
 
 ![screenshot](images/Dash.png)
 
