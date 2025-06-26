@@ -28,26 +28,27 @@ It walks participants through:
 
 ## How to Run the Project
 
-> **Prerequisites**: Databricks Free Version or Enterprise Workspace
+> **Prerequisites**: Databricks Free Version or Enterprise Account Edition
 
-### 1. Clone the repository into Databricks
+### 1. Clone the repository onto your local
 
-Upload the notebooks or use Git integration if you're using Databricks Repos.
+   - open your terminal and type the following code:
+      git clone `https://github.com/Rashidomar/workshop_demo_databricks.git`
+      This will clone the project onto your local machine
 
-### 2. Load dataset into volume (This only works when you want to run python notebooks)
-### 1. Create Notebooks
+### 2. Create Notebooks on Databricks account by following the below steps
 
-1. Navigate to your `library_demo` folder in Databricks workspace
-2. For each notebook:
-   - Click **Create** > **Notebook**
-   - Name: `bronze_layer`, `silver_layer`, `gold_layer`
-   - Language: **SQL**
-   - Click **Create**
-3. Copy-paste the corresponding content from below sections
-
-datasets and stores them in `/Volumes/demo_catalog/library_schema/library_volume/`.
-
-
+   1. Navigate to user workspace on
+       - From left menu, go to user workspace by:  
+       - clicking  Workspace > Users > `username`@gmail.com, when you get here, create a folder called `workshop_demo_databricks`
+   2. Notebook Creation
+       To create notebook:
+      - Click **Create** > **Notebook** 
+      - `bronze_layer` should be the name of your first notebook.
+      - Select **SQL** as the langauge for the notebook.
+      - Click **Create**
+        Copy and paste the content of the bronze_layer from the cloned repo on local machine in the **SQL_Notebook** folder.
+   3. Repeat the same steps to create your `silver_layer` and `gold_layer` notebooks
 
 ## Gold-Level Outputs
 
