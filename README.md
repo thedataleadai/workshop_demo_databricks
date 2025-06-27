@@ -30,13 +30,9 @@ It walks participants through:
 
 > **Prerequisites**: Databricks Free Version or Enterprise Account Edition
 
-### 1. Clone the repository onto your Databricks using the below: 
+### 1. Clone the repository onto your Databricks using the below Link and the steps following: 
 
-      `https://github.com/Rashidomar/workshop_demo_databricks.git`
-      
-   This will clone the project onto your local machine
-
-### 2. Create Notebooks on Databricks account by following the below steps
+      `https://github.com/Rashidomar/workshop_demo_databricks.git`   
 
    1. Navigate to  `Workspace` on Databricks
        - From the left menu, go to the user workspace by:  
