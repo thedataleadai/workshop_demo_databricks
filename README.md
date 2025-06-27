@@ -28,7 +28,7 @@ It walks participants through:
 
 ## How to Run the Project
 
-> **Prerequisites**: Databricks Free Version or Enterprise Account Edition
+> **Prerequisites**: Databricks Free Version or Enterprise Account Edition and an AWS Account
 
 ### 1. Clone the repository onto your Databricks using the below Link and the steps following: 
 
