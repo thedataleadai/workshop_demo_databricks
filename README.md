@@ -39,7 +39,8 @@ It walks participants through:
      **Please note location of your cloned repo**
      
    - On Mac, Windows and Linux, Enter the command below to give the location of cloned repo
-      command : pwd
+     
+      command : `pwd`
      
       **This location will be required to upload your notebooks onto the databricks platform**
 
