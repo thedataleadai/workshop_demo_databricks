@@ -30,34 +30,21 @@ It walks participants through:
 
 > **Prerequisites**: Databricks Free Version or Enterprise Account Edition
 
-### 1. Clone the repository onto your local
+### 1. Clone the repository onto your Databricks using the below: 
 
-   - open your terminal and type the following code:
-      git clone `https://github.com/Rashidomar/workshop_demo_databricks.git`
-      This will clone the project onto your local machine
-     
-     **Please note location of your cloned repo**
-     
-   - On Mac, Windows and Linux, Enter the command below to give the location of cloned repo
-     
-      command : `pwd`
-     
-      **This location will be required to upload your notebooks onto the databricks platform**
+      `https://github.com/Rashidomar/workshop_demo_databricks.git`
+      
+   This will clone the project onto your local machine
 
 ### 2. Create Notebooks on Databricks account by following the below steps
 
    1. Navigate to  `Workspace` on Databricks
        - From the left menu, go to the user workspace by:  
-       - clicking on Workspace > Users > `username@email_domain.com`: when you get here, create a folder called `workshop_demo_databricks`
-   2. Notebook Upload: To upload the notebook:
-      - Open the newly created folder workshop_demo_databricks
-      - Click on the three dotted icon on the top right-hand side
-      - From the pop up, select import.
-      - From the import window, click on browse, Navigate to where your repo was cloned
-      - Select the three notebooks from the SQL_Notebook folder, that is `bronze_layer`,`silver_layer` and `gold_layer`
-      - Click on import
-      - On successful import, you will see the message: **Successfully imported 3 files**
-   3. You can now view and run the imported notebooks from your Databricks Workspace
+       - clicking on Workspace > Repos > `username@email_domain.com`: when you get here, create and select Git folder.
+       - In the pop up window, enter this  `https://github.com/Rashidomar/workshop_demo_databricks.git` in the Git repository URL.
+       - Click on Create Git Folder
+       - Select SQL_notebooks
+   3. You can now view and run the notebooks from your Databricks Workspace
 
 ### The Medallion Architecture of the library System
 #### A medallion architecture is a data design pattern we are going to use to logically organize data with the goal of incrementally and progressively improving the structure and quality of data as it flows through each layer of the architecture from **Bronze ⇒ Silver ⇒ Gold layer tables**
