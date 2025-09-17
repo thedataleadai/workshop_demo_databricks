@@ -32,7 +32,7 @@ It walks participants through:
 
 ### 1. Clone the repository onto your Databricks using the below Link and the steps following: 
 
-      `https://github.com/Rashidomar/workshop_demo_databricks.git`   
+      `https://github.com/thedataleadai/workshop_demo_databricks.git`   
 
    1. Navigate to  `Workspace` on Databricks
        - From the left menu, go to the user workspace by:  
