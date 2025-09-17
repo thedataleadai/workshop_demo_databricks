@@ -37,7 +37,7 @@ It walks participants through:
    1. Navigate to  `Workspace` on Databricks
        - From the left menu, go to the user workspace by:  
        - clicking on Workspace > Repos > `username@email_domain.com`: when you get here, create and select Git folder.
-       - In the pop up window, enter this  `https://github.com/Rashidomar/workshop_demo_databricks.git` in the Git repository URL.
+       - In the pop up window, enter this  `https://github.com/thedataleadai/workshop_demo_databricks.git` in the Git repository URL.
        - Click on Create Git Folder
        - Select SQL_notebooks
    3. You can now view and run the notebooks from your Databricks Workspace
